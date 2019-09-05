@@ -14,6 +14,6 @@ public class MyApplication implements Processor
     {
         System.out.println("************");
         myAthlete.displayAthlete();
-        System.out.println("************");
+        System.out.println("************\n");
     }
 }

@@ -18,15 +18,15 @@ public class Main
         app.displayAthlete();
 
 
-//        // Create a Rugby Athlete
-//        injector = new RugbyAthleteCreationInjector();
-//        app = injector.getProcess();
-//        app.displayAthlete();
-//
-//        // Create a Baseball Athlete
-//        injector = new BaseballAthleteCreationInjector();
-//        app = injector.getProcess();
-//        app.displayAthlete();
+        // Create a Rugby Athlete
+        injector = new RugbyAthleteCreationInjector();
+        app = injector.getProcess();
+        app.displayAthlete();
+
+        // Create a Baseball Athlete
+        injector = new BaseballAthleteCreationInjector();
+        app = injector.getProcess();
+        app.displayAthlete();
 
     }
 }
